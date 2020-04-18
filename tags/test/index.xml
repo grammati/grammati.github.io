@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on pro.grammati.ca</title>
+    <link>https://grammati.github.io/tags/test/</link>
+    <description>Recent content in test on pro.grammati.ca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://grammati.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test - This is Only a Test</title>
+      <link>https://grammati.github.io/blog/2016-01-23-test-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://grammati.github.io/blog/2016-01-23-test-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam vestibulum accumsan nisl.
+Section Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus.</description>
+    </item>
+    
+  </channel>
+</rss>
