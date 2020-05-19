@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html><head><link href="http://pro.grammati.ca//blog/2011/11/11/making-the-world-a-better-place-through-bdd/index.html" rel="canonical" /><meta content="True" name="HandheldFriendly" /><meta content="320" name="MobileOptimized" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta charset="utf-8" /><title>pro.grammati.ca</title><link href="/css/32ca7f0b6575/theme.css" rel="stylesheet" /><link href="/css/d4de3943cb2d/zenburn-custom.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Cardo|Limelight" rel="stylesheet" type="text/css" /></head><body><header role="banner"><hgroup><h1><a href="/">pro.grammati.ca</a></h1></hgroup></header><nav role="navigation"><ul class="main-navigation"><li><a href="/blog/">Blog</a></li><li><a href="/atom.xml">Feed</a></li><li><a href="/about/">About</a></li></ul></nav><div id="main"><div id="content"><article class="entry" role="article"><header><h1 class="entry-title">Making the World a Better Place through BDD</h1><p class="meta"><time datetime="2011-11-11T00:00:00.000Z">2011-11-11</time></p></header><div class="body entry-content"><p>How BDD makes everything better:</p><p>Before:</p><pre><code class="codehilite"><span></span><span class="kd">class</span> <span class="nc">UnitTest</span> <span class="kd">extends</span> <span class="n">TestCase</span> <span class="o">{</span>
+    <span class="kt">void</span> <span class="nf">testStuff</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">assertEqual</span><span class="o">(</span><span class="s">"hello"</span><span class="o">,</span> 
+                    <span class="n">HugeBloatedIncomprehensibleClassFactory</span>
+                      <span class="o">.</span><span class="na">newInstanceOfHugeBloatedIncomprehensibleClass</span><span class="o">()</span>
+                      <span class="o">.</span><span class="na">complexFragileUndocumentedSideEffectingMethod</span><span class="o">());</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre><p>After:</p><pre><code class="codehilite"><span></span><span class="kd">class</span> <span class="nc">BDDTest</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="n">String</span> <span class="n">greeting</span><span class="o">;</span>
+
+    <span class="nd">@BeforeSpecification</span> 
+    <span class="kt">void</span> <span class="nf">setUp</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">greeting</span> <span class="o">=</span> <span class="n">HugeBloatedIncomprehensibleClassFactory</span>
+                     <span class="o">.</span><span class="na">newInstanceOfHugeBloatedIncomprehensibleClass</span><span class="o">()</span>
+                     <span class="o">.</span><span class="na">complexFragileUndocumentedSideEffectingMethod</span><span class="o">());</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Specification</span> 
+    <span class="kt">void</span> <span class="nf">mustBeHello</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">expect</span><span class="o">.</span><span class="na">that</span><span class="o">(</span><span class="n">value</span><span class="o">).</span><span class="na">isEqualTo</span><span class="o">(</span><span class="s">"hello"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre><p>Rejoice! Our problems are solved!</p></div></article></div></div><footer role="contentinfo"><p>Copyright © 2020 - Chris Perkins</p></footer></body></html>

@@ -1,0 +1,155 @@
+Chris Perkins
+Software Developer
+chrisperkins99@gmail.com
+
+This document is available on the web at http://pro.grammati.ca/cv.html
+
+----
+
+website: 	http://pro.grammati.ca
+blog: 	  http://pro.grammati.ca/blog/
+github: 	https://github.com/grammati
+twitter: 	http://twitter.com/#!/perksee
+
+
+Profile
+-------
+Software engineer since 2000.
+Broad experience ranging from Web Development to high-performance C++.
+Highly motivated and resourceful, continuously learning.
+Extensive experience creating web applications (front-end and back-end) and web services.
+Functional programming aficionado, specializing in Clojure.
+Current focus is on machine learning, particularly neural networks and deep learning, and working with smart people who I can learn from.
+
+
+Technical Skills
+----------------
+    Clojure
+    Python
+    JavaScript
+    Java
+    C++
+    Ruby
+    ClojureScript
+    Scala
+    HTML / CSS
+    React / Redux / Angular
+    SQL / NoSQL
+    Windows / Linux / Mac
+
+    
+Experience Summary
+------------------
+
+CA Technologies / Rally Software
+Principal Software Engineer
+2012-present
+Developed services for Rally's agile project manages SAAS application, primarily in Clojure.
+
+IBM (Cognos)
+Software Engineer
+2005-2012
+Developed Business Intelligence and Analytics products. Web, desktop, and mobile development, both client and server-side, using C++, Java, JavaScript.
+
+PixeLINK
+Software Engineer
+2002-2005
+C++ and Python programming for high-performance streaming video processing.
+
+inBusiness Systems Inc.
+Web Developer
+2000-2002
+Contract Web Development. ASP, Cold Fusion, JavaScript/HTML/CSS, SQL Server, Oracle.
+
+
+Education
+---------
+
+Queen's University - Kingston, Ontario
+Bachelor of Science (Honors) in Physics and Mathematics, 1998
+
+
+Experience Details
+------------------
+
+CA Technologies / Rally Software
+Principal Software Engineer
+2012-present
+
+In 2012 I joined Rally Software, continuing through the 2015 acquisition by CA Technologies. I have worked primarily in Clojure, building JVM-based microservices to replace pieces of a monolithic Java system. I developed Rally's authentication service, including an Oauth 2 server, SSO integration, and associated APIs and user interfaces. I also developed Rally's next-generation realtime system, which processes change-messages generated from events in our SAAS system, and uses them to power email notifications, webhooks, and realtime UI updates over websockets. All services were built using continuous deployment and test-driven development, with a heavy focus on realtime monitoring and high availability.
+
+
+IBM (Cognos)
+Software Developer
+2005-2012
+
+At IBM I worked on several projects.
+
+In 2012 I was on the Cognos Mobile team, developing tools to enable access to Cognos's reporting and analytics through mobile devices. Worked in both Objective-C for the iOS client, and in Java for the Android client.
+
+Prior to that I worked on the team that created Adaptive Analytics, an IDE-like tool for producing "Analytic Applications" - targeted suites of reports that run against a data warehouse. I was a key player on the team through two generations of the product - the first a pure-C++ application, and the second a more advanced version using a browser-based UI with a C++ server-side component.
+
+The first generation of Adaptive Analytics is a C++ application that uses MFC for the UI, and has an "engine" component that is cross-platorm. I started in 2005 as one of the first members of the team, at a time when the application was no more than a sketch on a whiteboard. We worked in rapid iterations to get the application from blank page to shippable in less than a year, working out requirements and collaborating to come up with solutions as required.
+
+* Participated actively in the full lifecycle of the product, from whiteboard to release.
+* Implemented the core of the report-generation process, designing and implementing the algorithms for transforming the application model into XML via a combination of C++ and XSLT.
+* Collaborated closely with teammates and product management to negotiate priorities, working rapidly to implement and refine features (essentially doing Agile before we had heard of the term).
+* Continued to contribute to the development through 3 major releases of the product, while simultaneously beginning work on its next generation.
+
+The second generation of the Adaptive Analytics, started in 2007, moved the UI the web and introduced a much more interactive user experience. The first generation provided an IDE-like environment from which a report designer could quicky and easily batch-generate reports, but the consumer of those reports still had a fairly static view of his data. With the second-gereration, report-generation is done on-the-fly, allowing the end-user to extensively modify both the data and the presentation of the reports.
+
+The application logic is largely in JavaScript, which communicates with the server through a strictly RESTful API, passing back and forth XML-representations of model objects. All HTML generation is done on the client-side, using Dojo widgets extensively. Code-generation produces both JavaScript and C++ reprentations of the application's object-model, ensuring that they are in sync. The client side comprises a complete MVC framework in which model objects can be read from XML, manipulated by the controller and UI components, and written back to XML. Events, including property-change events for model objects, are used extensively to enforce loose coupling of widgets in the UI.
+
+* Designed and implemented a proof-of-concept implementation of a web-based next-generation version of Adaptive Analytics using Python, Django, SQLAlchemy, and Dojo.
+* Acted as lead architect of the client-side portion of the second generation of the product.
+* Designed and implemented the core of a client-side JavaScript framework using a variation of MVC.
+* Lead the implementation of the Adaptive Analytics UI, using Dojo widgets extensively, to produce a desktop-application-like experience in the browser.
+
+
+PixeLINK
+Software Engineer
+2002-2005
+
+I worked for 3 years at PixeLINK, a small, Ottawa-based manufacturer of streaming digital video cameras, targeting the medical and industrial-inspection markets.
+
+* Designed and wrote an application to show off the features of the PixeLINK API for capturing video and images, controlling the camera (frame-rate, exposure, etc.), processing image data, applying image correction.
+* Wrote an application for programming and calibrating newly manufactured cameras. Built an ever-growing suite of calibration routines to detect and correct various kinds of systemic imperfections in the sensors.
+* Wrote various in-house tools for working with PixeLINK cameras. Wrote a Python extension module wrapping the PixeLINK API, allowing me to write many of our in-house tools in Python. Used wxPython for UI, Numpy and Scipy for image processing.
+
+
+inBusiness Systems Inc.
+Web Developer
+2000-2002
+
+At inBusiness Systems I did several web development projects, mostly for federal government contracts.
+
+* A comprehensive contact-management application, modeled after "Contacts" in Outlook, developed in Cold Fusion, for the Transportation Safety Board of Canada. The application required a pure-HTML interface that looked as similar as possible the interface in Outlook, but allowed fine-grained access controls at the field-level, per-record. I designed and created the database (Oracle) and wrote all of the code.
+* An ASP web application (old-school, pre-.NET ASP) for the Privy Council Office, to replace an old green-screen COBOL program for managing Orders in Council. The application is used to manage the workflow for maintaining and archiving these documents. Team size: 4.
+
+Several shorter projects, including:
+
+* An ASP web application for placing PowerPoint presentations on the intranet at Transport Canada, by uploading the file and having it converted to HTML format on the server.
+* A web application for managing corporate travel for Nortel (presumably no longer in use ;), in Cold Fusion.
+* A project to clean up many thousands of internal web pages for DND to use more standardized HTML. Although placed there to do "monkey-work", I instead used Python to automate FrontPage via its COM interface, allowing me to process thousands of documents per minute.
+
+
+Open Source
+-----------
+
+Hakkkrnooz: An alternative, keyboard-driven web interface to Hacker News, using Clojure and CoffeeScript. (http://hakkkrnooz.herokuapp.com)
+
+Rapscallion: XML templating and transformation library for Clojure. (https://github.com/grammati/rapscallion)
+
+Imparsonate: Library for building very consise parsers in Clojure. (https://github.com/grammati/imparsonate)
+
+Eksemel: Library for parsing and emitting XML in Clojure. (https://github.com/grammati/eksemel)
+
+Clj-Msgpack: Serialization of Clojure datatypes in MessagePack format. (https://github.com/grammati/clj-msgpack)
+
+Windsize: Emacs Lisp package for easy resizing of windows. (https://github.com/grammati/windsize)
+
+Contributor to Clojure, Cider, Cider-nrepl, and various other open-source projects.
+
+A proposal and patch for Ruby-style blocks in Python. (https://groups.google.com/forum/?fromgroups#!searchin/python-ideas/ruby$20blocks/python-ideas/orsf85ktnAE/BKjENoOPQKsJ)
+
+
