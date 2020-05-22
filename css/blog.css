@@ -1,0 +1,63 @@
+body {
+    border-top:8px solid #333;
+    margin-top: 0px;
+    font-family: Cardo, serif;
+    color:#2a2a2a;
+}
+h1 {
+    font-family: "Cardo", "Della Respira", "EB Garamond", "Sorts Mill Goudy", "Helvetica Neue", Tahoma, serif;
+}
+h2 {
+    font-family: "Cardo", "Della Respira", "EB Garamond", "Sorts Mill Goudy", "Helvetica Neue", Tahoma, serif;
+}
+.header {
+    text-align:center;
+    padding-top: 2em;
+}
+.header h1 {
+    font-family: "Limelight", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2.8em;
+}
+nav ul {
+    display:inline-block;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.2em;
+}
+nav ul li {
+    list-style-image:none;
+    list-style-type:none;
+    display:inline;
+    float:left;
+    margin-left: 1em;
+}
+nav ul li:first-child {
+    margin-left: 0;
+}
+a {
+    color:#2a2a2a;
+}
+a:hover {
+    text-decoration: none;
+}
+.mono, pre, code, tt {
+  font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+}
+article header {
+    border-top:1px solid #C0BEBC;
+    position:relative;
+    padding-top:3.5em;
+    padding-bottom:1em;
+    margin-bottom:1em;
+    text-align:center;
+    background:#fff bottom left repeat-x
+}
+footer {
+    text-align:center;
+    font-size:.8em;
+    color:#888;
+    padding-top:1em;
+    padding-bottom:1em;
+    margin-bottom:3em;
+}
