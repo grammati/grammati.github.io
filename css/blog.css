@@ -1,14 +1,9 @@
 body {
     border-top:8px solid #333;
     margin-top: 0px;
-    font-family: Cardo, serif;
-    color:#2a2a2a;
 }
-h1 {
-    font-family: "Cardo", "Della Respira", "EB Garamond", "Sorts Mill Goudy", "Helvetica Neue", Tahoma, serif;
-}
-h2 {
-    font-family: "Cardo", "Della Respira", "EB Garamond", "Sorts Mill Goudy", "Helvetica Neue", Tahoma, serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cardo", "Helvetica Neue", Tahoma, serif;
 }
 .header {
     text-align:center;
@@ -47,13 +42,12 @@ a:hover {
 article header {
     border-top:1px solid #C0BEBC;
     position:relative;
-    padding-top:3.5em;
+    padding-top:1.5em;
     padding-bottom:1em;
     margin-bottom:1em;
     text-align:center;
-    background:#fff bottom left repeat-x
 }
-footer {
+footer, footer &gt; a {
     text-align:center;
     font-size:.8em;
     color:#888;
